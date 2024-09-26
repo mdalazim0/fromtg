@@ -1,4 +1,7 @@
-        function handleFileChange(event) {
+function myFunction() {
+    alert("Button clicked!");
+}
+function handleFileChange(event) {
             const fileInput = event.target;
             const fileName = document.getElementById('file-name');
             fileName.textContent = fileInput.files.length ? fileInput.files[0].name : 'No file chosen';
